@@ -1,0 +1,137 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: #FFFFE8;
+}
+
+section{
+    /* width:80%; */
+    /* display:flex;
+    justify-content: center;
+    align-items: center; */
+    /* display: block; */
+    margin:50px auto;
+}
+
+img{
+    width:50px;
+    height:50px;
+    float:left;
+    border-radius: 50%;
+    padding:0 5px 0 5px;
+}
+
+
+/* testimonials */
+.about{
+    font-weight: 600;
+    color:white;
+}
+
+.text-muted{
+    font-weight: 500;
+    opacity:50%;
+}
+
+.student{
+    border-radius: 15px;
+    display:flex;
+    z-index:2;
+}
+
+.about-this{
+    color:black;
+}
+
+/* testimonial section 1 */
+.daniel-testimonial{
+    background-color: hsl(263, 55%, 52%);
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding:20px;
+    width:52%;
+    height:28%;
+    border-radius:28px;
+    margin:5px;
+}
+
+.jonathan-testimonial{
+    background-color: hsl(217, 19%, 35%);
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding:20px;
+    width:24%;
+    height:35%;
+    border-radius: 28px;
+    margin:5px;
+}    
+
+.kiira-testimonial{
+    background-color: white;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding:20px;
+    width:25%;
+    border-radius: 28px;
+    margin:5px;
+}
+
+/* testimonial section-2 */
+/* .second-testimonials{
+    position: absolute;
+    top:60%;
+} */
+
+.jeanette-testimonial{
+    background-color:white;
+    margin-right: 10px;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.2);
+    padding:20px;
+    width:20%;
+    border-radius: 28px;
+    margin:5px;
+    margin-left: 30px;
+}
+
+.patrick-testimonial{
+    background-color:  grey;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.2);
+    padding:20px;
+    width:52%;
+    border-radius: 28px;
+    margin:5px;
+}
+
+.second-testimonial{
+    position:absolute;
+    top:60%    ;
+}
+
+/* phone responsiveness */
+@media only screen and  (max-width:375px){
+    .daniel-testimonial,.jonathan-testimonial,.kiira-testomonial{
+        width:100%;
+    }
+}
+
+@media only screen and (max-width:375px){
+    .jeanette-testimonial,.patrick-testimonial{
+        width:100%;
+    }
+}
+
+/* .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+} */
+
+
+/* .col {
+  width: 100%;
+  padding: 0 20px;
+
+  @media (min-width: 768px) {
+    width: calc(50% - 40px);
+  }
+} */
